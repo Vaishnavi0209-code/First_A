@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    
+    function abc(...a){
+        console.log(a);
+    }
+
+    //  if the result does not come in form of array then it is spread operator (todna)
+
+    let b=[11,22,33,44,55];
+    console.log(b);
+    console.log(...b);
+
+    // if the result come in form of array then it is rest operator (jodna)
+    abc(22);
+    abc(11,22);
+    abc(11,22,33);
+   </script> 
+</body>
+</html>

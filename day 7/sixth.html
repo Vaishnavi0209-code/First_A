@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let list=[11,22,33,44,55,66];
+        // filter function
+        let even=list.filter((num)=>num%2==0);
+        console.log(even)
+
+        // find function only access 1st occurring value which is true
+
+         let even=list.find((num)=>num%2==0); 
+        console.log(even)
+
+        // find index function
+         let even=list.findIndex((num)=>num>50); 
+        console.log(even)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // spread operator
+
+        const user={
+            name: "vaishnavi",
+            roll: "61"
+
+        };
+        const updateduser={
+            ...user,
+            roll: "62",
+            city: "gorakhpur"
+        };
+        console.log(updateduser);
+        user.name="pari";
+        console.log(user);
+
+        const {name,roll}= user;
+        console.log(name);
+        //name="xyz"; //const me value does not change but in let it is possible
+        console.log(name);
+        console.log(user);
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>
